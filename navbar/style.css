@@ -72,7 +72,7 @@ body {
 }
 
 /* Media query for smaller screens */
-@media screen and (min-width:750px) and (max-width: 850px) {
+@media screen and (min-width: 540px) and (max-width: 1024px) {
     .navbar-kiri {
         width: 25%; /* Adjust as needed */
         margin-right: 15%;
@@ -80,7 +80,8 @@ body {
 
     .navbar-kanan {
         width: 60%;
-        grid-template-columns: repeat(5, 0.18fr);
+        grid-template-columns: repeat(5, 0.3fr);
+        font-size: 2vw;
     }
 
     .Logo {
@@ -99,7 +100,7 @@ body {
     }
 }
 
-@media screen and (min-width: 300px) and (max-width: 750px) {
+@media screen and (min-width: 300px) and (max-width: 540px) {
     .navbar{
         display: block;
     }
