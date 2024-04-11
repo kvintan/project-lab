@@ -72,7 +72,7 @@ body {
 }
 
 /* Media query for smaller screens */
-@media screen and (min-width:750px) and (max-width: 850px) {
+@media screen and (min-width:750px) and (max-width: 1020px) {
     .navbar-kiri {
         width: 25%; /* Adjust as needed */
         margin-right: 15%;
