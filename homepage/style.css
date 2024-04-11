@@ -82,8 +82,7 @@ body::-webkit-scrollbar {
 .master img {
     transform: scale(70%);
     background-size: cover;
-    margin-top: -6vw;
-    margin-left: -6vw;
+    margin-top: 3vw;
 }
 
 .master:nth-of-type(2) img {
