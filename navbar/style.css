@@ -99,7 +99,7 @@ body {
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (min-width: 280px) and (max-width: 750px) {
     .navbar{
         display: block;
     }
