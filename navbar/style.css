@@ -23,13 +23,13 @@ body {
 }
 
 .Logo {
-    max-height: 50%;
+    max-height: 85%;
     width: auto;
     transition: 0.3s ease;
 }
 
 .Logo:hover{
-    max-height: 75%;
+    max-height: 100%;
     width: auto;
     transition: 0.3s ease;
     cursor: pointer;
@@ -38,7 +38,6 @@ body {
 .Logo-Tulisan {
     max-height: 100%;
     width: auto;
-    margin-right: -10vw;
 }
 
 .navbar-kanan {
@@ -167,5 +166,11 @@ body {
     .fa-bars {
         visibility: visible;
         margin-left: 80%;
+    }
+
+    .Logo-Tulisan {
+        width: 170%;
+        margin-left: -2vw;
+        margin-right: -10vw;
     }
 }
