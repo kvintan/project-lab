@@ -1,0 +1,120 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.characterPage {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#fff7f7 0%, #dcdbff 49%, #fff7f7 100%);
+    border-bottom: 10px solid black;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.characterPage img {
+    margin-left: 10vw;
+}
+
+.characterPage h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 7vw;
+    margin-top: 1vw;
+    line-height: 2vw;
+    text-decoration: underline;
+}
+
+.characterPage h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    width: 80%;
+    text-align: justify;
+}
+
+.characterPage:nth-of-type(3), .characterPage:nth-of-type(5) {
+    background: linear-gradient(#fff7f7 0%, #dcdbff 49%, #fff7f7 100%);
+}
+
+@media screen and (min-width:540px) and (max-width: 1024px) {
+    .characterPage {
+        height: 40vh;
+        display: grid;
+    }
+
+    .imageCharacter img {
+        width: 70%;
+        margin-top: 2%;
+        margin-left: 20%;
+        margin-right: 2vw;
+    }
+
+    .characterDescription h1 {
+        font-size: 5vw;
+        margin-top: 5%;
+    }
+
+    .characterDescription h3 {
+        font-size: 1.4vw;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 539px) {
+    .characterPage {
+        height: 35vh;
+        display: grid;
+    }
+
+    .imageCharacter img {
+        width: 80%;
+        margin-top: 2%;
+        margin-left: 15%;
+        margin-right: 2vw;
+    }
+
+    .characterDescription {
+        margin-left: 5%;
+    }
+
+    .characterDescription h1 {
+        font-size: 7vw;
+        margin-top: 5%;
+    }
+
+    .characterDescription h3 {
+        font-size: 1.6vw;
+    }
+}
+
+
+@media screen and (max-width: 300px) {
+    .characterPage {
+        height: 35vh;
+        display: grid;
+    }
+
+    .imageCharacter img {
+        width: 80%;
+        margin-top: 2%;
+        margin-left: 15%;
+        margin-right: 2vw;
+    }
+
+    .characterDescription {
+        margin-left: 5%;
+    }
+
+    .characterDescription h1 {
+        font-size: 7vw;
+        margin-top: 5%;
+    }
+
+    .characterDescription h3 {
+        font-size: 1.6vw;
+    }
+}

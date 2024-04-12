@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <div class="header">
+            <h1>Register Form</h1>
+            <h2>Join us as a member of the Academy</h2>
+        </div>
+        <form id = "register-form">
+            <div class="placer">
+                <label class="title" for="first-name">First Name:</label>
+                <div class="box" id ="change1">
+                    <input type="text" id="first-name" name="first-name" placeholder="Input Your First Name">
+                    <img src="./Sources/exclamation.png" alt="" class="wrong" id="image-first">
+                </div>
+                
+            </div>
+
+            <div class="placer">    
+                <label class="title" for="last-name">Last Name:</label>
+                <div class="box" id ="change2" >
+                    <input type="text" id="last-name" name="last-name" placeholder="Input Your Last Name">
+                    <img src="./Sources/exclamation.png" alt="" class="wrong" id="image-last">
+                </div>
+            </div>
+
+            <div class="placer">
+                <label class="title" for="gender">Gender:</label>
+                <div class="box-different" id ="change3">
+                    <div class="radio-button">
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                    </div>
+                    
+                </div>
+            </div>
+            
+
+            <div class="placer">
+                <label class="title" for="address">Address:</label>
+                <div class="box"id ="change4">
+                    <input type="text" id="address" name="address" placeholder="Input Your Address">
+                    <img src="./Sources/exclamation.png" alt="" class="wrong" id="image-address">
+                </div>
+            </div>
+
+            <div class="placer">
+                <label class="title" for="email">Email:</label>
+                <div class="box" id ="change5">
+                    <input type="text" id="email" name="email" placeholder="Input Email">
+                    <img src="./Sources/exclamation.png" alt="" class="wrong" id="image-email">
+                </div>
+            </div>
+
+            <div id="error-txt" class="error">
+            <label id="error-text">[A Sample Error Dysfunctional Error]</label>
+            <button type="submit">Register</button>
+            </div>  
+
+        </form>
+        <div class="bawah">
+            <h1>We Await Your Dragon in Our Academy</h1>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
