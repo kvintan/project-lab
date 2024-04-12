@@ -8,7 +8,7 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-.characterPage {
+.classPage {
     width: 100%;
     height: 100vh;
     background: linear-gradient(#fff7f7 0%, #dcdbff 49%, #fff7f7 100%);
@@ -18,103 +18,108 @@ body::-webkit-scrollbar {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.characterPage img {
-    margin-left: 10vw;
+.classPage img {
+    margin-left: 28vw;
+    border-top: 4px solid black;
+    transform: scale(600%);
 }
 
-.characterPage h1 {
+.classPage h1 {
     font-family: "Poppins", sans-serif;
     font-size: 7vw;
-    margin-top: 1vw;
-    line-height: 2vw;
+    margin-top: -2vw;
+    line-height: 8vw;
     text-decoration: underline;
+    width: 50%;
 }
 
-.characterPage h3 {
+.classPage h3 {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
+    margin-top: -3vw;
     width: 80%;
     text-align: justify;
 }
 
-.characterPage:nth-of-type(3), .characterPage:nth-of-type(5) {
+.classPage:nth-of-type(3), .classPage:nth-of-type(5) {
     background: linear-gradient(#fff7f7 0%, #dcdbff 49%, #fff7f7 100%);
 }
 
 @media screen and (min-width:540px) and (max-width: 1024px) {
-    .characterPage {
+    .classPage {
         height: 40vh;
         display: grid;
     }
 
-    .imageCharacter img {
-        width: 70%;
+    .imageClass img {
+        width: 5%;
         margin-top: 2%;
-        margin-left: 20%;
-        margin-right: 2vw;
+        margin-left: 50%;
     }
 
-    .characterDescription h1 {
+    .classDescription {
+        margin-left: -10%;
+    }
+
+    .classDescription h1 {
         font-size: 5vw;
-        margin-top: 5%;
+        margin-top: 0%;
     }
 
-    .characterDescription h3 {
-        font-size: 1.4vw;
+    .classDescription h3 {
+        font-size: 1.7vw;
     }
 }
 
 @media screen and (min-width: 300px) and (max-width: 539px) {
-    .characterPage {
-        height: 35vh;
+    .classPage {
+        height: 40vh;
         display: grid;
     }
 
-    .imageCharacter img {
-        width: 80%;
+    .imageClass img {
+        width: 7%;
         margin-top: 2%;
-        margin-left: 15%;
-        margin-right: 2vw;
+        margin-left: 50%;
     }
 
-    .characterDescription {
-        margin-left: 5%;
+    .classDescription {
+        margin-left: -10%;
     }
 
-    .characterDescription h1 {
+    .classDescription h1 {
         font-size: 7vw;
-        margin-top: 5%;
+        margin-top: 0%;
     }
 
-    .characterDescription h3 {
-        font-size: 1.6vw;
+    .classDescription h3 {
+        font-size: 2vw;
     }
 }
 
 
 @media screen and (max-width: 300px) {
-    .characterPage {
-        height: 35vh;
+    .classPage {
+        height: 40vh;
         display: grid;
     }
 
-    .imageCharacter img {
-        width: 80%;
+    .imageClass img {
+        width: 8%;
         margin-top: 2%;
-        margin-left: 15%;
-        margin-right: 2vw;
+        margin-left: 50%;
     }
 
-    .characterDescription {
-        margin-left: 5%;
+    .classDescription {
+        margin-left: -10%;
     }
 
-    .characterDescription h1 {
-        font-size: 7vw;
-        margin-top: 5%;
+    .classDescription h1 {
+        font-size: 8vw;
+        margin-top: 0%;
     }
 
-    .characterDescription h3 {
-        font-size: 1.6vw;
+    .classDescription h3 {
+        font-size: 2.2vw;
     }
 }

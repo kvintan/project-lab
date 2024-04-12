@@ -324,16 +324,16 @@ body::-webkit-scrollbar {
     }
 
     .footer .logoFooter {
-        margin-left: 26vw;
+        margin-left: 40%;
         margin-top: 1vw;
     }
 
     .footer .textFooter {
-        margin-left: 24vw;
+        margin-left: 38%;
     }
 
     .footer h6 {
-        margin-left: 17vw;
+        margin-left: 26%;
     }
 
     .footer .footerTextContainer {
@@ -400,13 +400,13 @@ body::-webkit-scrollbar {
 
     .footer .logoFooter {
         transform: scale(50%);
-        margin-left: 24vw;
+        margin-left: 34%;
         margin-top: -3vw;
     }
 
     .footer .textFooter {
         transform: scale(50%);
-        margin-left: 20vw;
+        margin-left: 28%;
         margin-top: -6vw;
     }
 
@@ -480,13 +480,12 @@ body::-webkit-scrollbar {
 
     .footer .logoFooter {
         transform: scale(50%);
-        margin-left: 24vw;
         margin-top: -3vw;
+        margin-left: 25%;
     }
 
     .footer .textFooter {
         transform: scale(50%);
-        margin-left: 20vw;
         margin-top: -6vw;
     }
 
