@@ -97,7 +97,7 @@ body::-webkit-scrollbar {
 
 .Logo {
     max-height: 85%;
-    width: auto;
+    width: 8vw;
     transition: 0.3s ease;
 }
 
@@ -110,7 +110,7 @@ body::-webkit-scrollbar {
 
 .Logo-Tulisan {
     max-height: 100%;
-    width: auto;
+    width: 10vw;
 }
 
 .navbar-kanan {
@@ -126,7 +126,7 @@ body::-webkit-scrollbar {
     align-items: center;
     text-decoration: none;
     color: black;
-    font-size: 1.25em; /* Adjust font size with em units */
+    font-size: 1.5vw;
     transition: 0.3s ease;
     text-align: center;
     font-family: "Raleway", sans-serif;
@@ -136,7 +136,7 @@ body::-webkit-scrollbar {
 .subJudul:hover {
     background-color: black;
     color: white;
-    font-size: 1.5em; /* Adjust font size with em units */
+    font-size: 1.7vw; 
 }
 
 .fa-bars {

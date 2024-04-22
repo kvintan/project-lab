@@ -19,9 +19,9 @@ body::-webkit-scrollbar {
 }
 
 .classPage img {
-    margin-left: 28vw;
     border-top: 4px solid black;
-    transform: scale(600%);
+    width: 15vw;
+    margin-left: 20vw;
 }
 
 .classPage h1 {
@@ -39,6 +39,7 @@ body::-webkit-scrollbar {
     margin-top: -3vw;
     width: 80%;
     text-align: justify;
+    font-size: 1.5vw;
 }
 
 .classPage:nth-of-type(3), .classPage:nth-of-type(5) {
@@ -52,9 +53,8 @@ body::-webkit-scrollbar {
     }
 
     .imageClass img {
-        width: 5%;
+        width: 15vw;
         margin-top: 2%;
-        margin-left: 50%;
     }
 
     .classDescription {
@@ -78,9 +78,8 @@ body::-webkit-scrollbar {
     }
 
     .imageClass img {
-        width: 7%;
+        width: 18vw;
         margin-top: 2%;
-        margin-left: 50%;
     }
 
     .classDescription {
@@ -105,7 +104,7 @@ body::-webkit-scrollbar {
     }
 
     .imageClass img {
-        width: 8%;
+        width: 8vw;
         margin-top: 2%;
         margin-left: 50%;
     }

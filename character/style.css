@@ -19,8 +19,8 @@ body::-webkit-scrollbar {
 }
 
 .characterPage img {
-    margin-left: 10vw;
-    transform: scale(110%);
+    width: 40vw;
+    margin-left: 5vw;
     border-bottom: 4px solid black;
 }
 
@@ -37,6 +37,7 @@ body::-webkit-scrollbar {
     font-weight: 500;
     width: 80%;
     text-align: justify;
+    font-size: 1.5vw;
 }
 
 .characterPage:nth-of-type(3), .characterPage:nth-of-type(5) {
