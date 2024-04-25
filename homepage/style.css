@@ -270,9 +270,24 @@ body::-webkit-scrollbar {
     text-decoration: underline;
 }
 
+
+
 @media screen and (min-width:540px) and (max-width: 1024px) {
+    .Logo{
+        width: 125px;
+        height: 80px;
+    }
+    .Logo-Tulisan{
+        width: 135px;
+    }
+
+
     .header {
         height: 40vh;
+    }
+
+    .character {
+        min-height: 100vh;
     }
 
     .container-character {
@@ -332,6 +347,83 @@ body::-webkit-scrollbar {
     }
 }
 
+@media screen and (min-width:540px) and (max-width: 1024px) and (orientation: landscape) {
+    .Logo{
+        width: 125px;
+        height: 80px;
+    }
+    .Logo-Tulisan{
+        width: 135px;
+    }
+
+    .header {
+        height: 100vh;
+    }
+
+    .character {
+        height: 180vh;
+    }
+
+    .container-character {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3vw;
+        height: 100vh;
+        justify-items: center;
+    }
+
+    .master {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .element {
+        height: 100vh;
+    }
+
+    .garis {
+        height: 50px;
+    }
+
+    .isleofBerk {
+        height: 100vh;
+    }
+
+    .gambar img {
+        margin-left: 6vw;
+    }
+
+    .textIsleofBerk {
+        margin-left: 8vw;
+    }
+
+    .footer {
+        height: 40vh;
+        display: grid;
+        align-items: center;
+    }
+
+    .footer .logoFooter {
+        margin-left: 40%;
+        width: 20%;
+        margin-top: 1vw;
+    }
+
+    .footer .textFooter {
+        margin-left: 40%;
+        width: 20%;
+    }
+
+    .footer h6 {
+        margin-left: 26%;
+    }
+
+    .footer .footerTextContainer {
+        margin-top: 1vw;
+    }
+}
+
 @media screen and (min-width: 300px) and (max-width: 539px) {
     .header {
         height: 40vh;
@@ -352,7 +444,7 @@ body::-webkit-scrollbar {
 
     .seeMore {
         transform: scale(150%);
-        margin-top: 10%;
+        margin-top: 6vh;
     }
 
     .element {

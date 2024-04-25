@@ -67,6 +67,29 @@ body::-webkit-scrollbar {
     }
 }
 
+@media screen and (min-width:540px) and (max-width: 1024px) and (orientation: landscape) {
+    .characterPage {
+        height: 100vh;
+        display: grid;
+    }
+
+    .imageCharacter img {
+        width: 70%;
+        margin-top: 2%;
+        margin-left: 20%;
+        margin-right: 2vw;
+    }
+
+    .characterDescription h1 {
+        font-size: 5vw;
+        margin-top: 5%;
+    }
+
+    .characterDescription h3 {
+        font-size: 1.4vw;
+    }
+}
+
 @media screen and (min-width: 300px) and (max-width: 539px) {
     .characterPage {
         height: 35vh;

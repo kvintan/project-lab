@@ -96,7 +96,7 @@ body::-webkit-scrollbar {
 }
 
 .Logo {
-    max-height: 85%;
+    max-height: 65%;
     width: 8vw;
     transition: 0.3s ease;
 }
@@ -157,19 +157,13 @@ body::-webkit-scrollbar {
         font-size: 2vw;
     }
 
-    .Logo {
-        height: 70%; /* Adjust as needed */
-    }
-    .Logo-Tulisan{
-        height: 15%;
-    }
 
     .subJudul {
-        font-size: 1em; /* Adjust font size with em units */
+        font-size: 1.5vw;
     }
 
     .subJudul:hover {
-        font-size: 1.25em; /* Adjust font size with em units */
+        font-size: 1.75vw;
     }
 
     .image > img{
@@ -188,6 +182,40 @@ body::-webkit-scrollbar {
         width: 90%;
         align-self: center;
         justify-self: center;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 1024px) and (orientation: landscape) {
+    .navbar {
+        height: 15vh;
+    }
+    
+    .navbar-kiri {
+        width: 25%; /* Adjust as needed */
+        margin-right: 15%;
+        /* background-color: red; */
+    }
+
+    .navbar-kanan {
+        width: 60%;
+        grid-template-columns: repeat(5, 0.3fr);
+        font-size: 2vw;
+    }
+
+    .Logo {
+        height: 100px;
+        width: 100px;
+    }
+    .Logo-Tulisan{
+        /* height: 15%; */
+    }
+
+    .subJudul {
+        font-size: 1.5vw;
+    }
+
+    .subJudul:hover {
+        font-size: 1.75vw;
     }
 }
 

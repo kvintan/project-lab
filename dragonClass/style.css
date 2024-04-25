@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     width: 100vw;
+    /* min-height: 1200px; */
 }
 
 body::-webkit-scrollbar {
@@ -71,9 +72,59 @@ body::-webkit-scrollbar {
     }
 }
 
+@media screen and (min-width:540px) and (max-width: 1024px) and (orientation: landscape) {
+    .classPage {
+        height: 110vh;
+        display: grid;
+    }
+
+    .imageClass img {
+        width: 15vw;
+        margin-top: 2%;
+    }
+
+    .classDescription {
+        margin-left: -10%;
+    }
+
+    .classDescription h1 {
+        font-size: 5vw;
+        margin-top: 0%;
+    }
+
+    .classDescription h3 {
+        font-size: 1.7vw;
+    }
+}
+
 @media screen and (min-width: 300px) and (max-width: 539px) {
     .classPage {
         height: 40vh;
+        display: grid;
+    }
+
+    .imageClass img {
+        width: 18vw;
+        margin-top: 2%;
+    }
+
+    .classDescription {
+        margin-left: -10%;
+    }
+
+    .classDescription h1 {
+        font-size: 7vw;
+        margin-top: 0%;
+    }
+
+    .classDescription h3 {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 539px) and (orientation: landscape) {
+    .classPage {
+        height: 100vh;
         display: grid;
     }
 

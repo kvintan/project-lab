@@ -1,10 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    height: 125vh;
+    height: 75vh;
+    min-height: 150vh;
     width: 100vw;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    gap: 4vw;
+    justify-content: flex-start;
     align-items: center;
     position: relative;
 }
@@ -26,7 +29,7 @@ body::-webkit-scrollbar {
 
 .container {
     background-color: white;
-    height: 60vw;
+    height: 65vw;
     width: 30vw;
     z-index: 1;
     border-radius: 10px;
@@ -219,9 +222,58 @@ button:hover{
 }
 
 @media screen and (min-width:540px) and (max-width: 1024px) {
+    body {
+        min-height: 150vh;
+    }
+
     .container{
-        width: 600px;
-        height: 80%;
+        height: 90%;
+        width: 90%;
+    }
+
+    h1{
+        font-size: 4vw;
+    }
+    h2{
+        font-size: 3vw;
+    }
+    .bawah>h1{
+        font-size: 4vw;
+    }
+
+    .title{
+        font-size: 3vw;
+    }
+    .box > input{
+        font-size: 2vw;
+    }
+    
+    input[type="radio"] {
+        width: 3vw;
+        height: 3vw;
+        padding-right: 5px;
+    }
+    
+    /* Style the label text for the radio buttons */
+    label[for="female"], label[for="male"] {
+        font-size: 2.5vw;
+        vertical-align: middle;
+    }
+    button{
+        font-size: 2vw;
+    }
+    #error-text.active{
+        font-size: 3vw ;
+    }
+}
+
+@media screen and (min-width:540px) and (max-width: 1024px) and (orientation: landscape) {
+    body {
+        min-height: 300vh;
+    }
+
+    .container{
+        height: 90%;
         width: 90%;
     }
 
@@ -295,6 +347,9 @@ button:hover{
     button{
         font-size: 4vw;
     }
+    #error-text.active{
+        font-size: 4vw ;
+    }
 }
 
 @media screen and (max-width:300px){
@@ -303,13 +358,13 @@ button:hover{
         height: 80%;
     }
     h1{
-        font-size: 1.5rem;
+        font-size: 1.5vw;
     }
     h2{
-        font-size: 1rem;
+        font-size: 1vw;
     }
     .bawah > h1{
-        font-size: 1rem;
+        font-size: 1vw;
     }
     .box-different{
         display: flex;
