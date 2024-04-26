@@ -1,0 +1,218 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 10vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    z-index: 9999;
+}
+
+.navbar-kiri {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.Logo {
+    max-height: 65%;
+    width: 8vw;
+    transition: 0.3s ease;
+}
+
+.Logo:hover{
+    max-height: 100%;
+    width: auto;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.Logo-Tulisan {
+    max-height: 100%;
+    width: 10vw;
+}
+
+.navbar-kanan {
+    display: grid;
+    width: 75%;
+    height: 100%;
+    grid-template-columns: repeat(5, 1fr); /* Simplified grid-template-columns */
+}
+
+.subJudul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw; /* Adjust font size with em units */
+    transition: 0.3s ease;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+}
+
+.subJudul:hover {
+    background-color: black;
+    color: white;
+    font-size: 1.5em; /* Adjust font size with em units */
+}
+
+.fa-bars {
+    font-size: 250%;
+    visibility: hidden;
+}
+
+/* Media query for smaller screens */
+@media screen and (min-width: 540px) and (max-width: 1024px) {
+    .navbar-kiri {
+        width: 25%; /* Adjust as needed */
+        margin-right: 15%;
+    }
+
+    .navbar-kanan {
+        width: 60%;
+        grid-template-columns: repeat(5, 0.3fr);
+        font-size: 2vw;
+    }
+
+    .subJudul {
+        font-size: 1em; /* Adjust font size with em units */
+    }
+
+    .subJudul:hover {
+        font-size: 1.25em; /* Adjust font size with em units */
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 1024px) and (orientation: landscape) {
+    .navbar {
+        height: 15vh;
+    }
+    
+    .navbar-kiri {
+        width: 25%; /* Adjust as needed */
+        margin-right: 15%;
+        /* background-color: red; */
+    }
+
+    .navbar-kanan {
+        width: 60%;
+        grid-template-columns: repeat(5, 0.3fr);
+        font-size: 2vw;
+    }
+
+    .Logo-Tulisan{
+        /* height: 15%; */
+    }
+
+    .subJudul {
+        font-size: 1.5vw;
+    }
+
+    .subJudul:hover {
+        font-size: 1.75vw;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 539px) {
+    .navbar{
+        display: block;
+    }
+    .Logo{
+        width: 20%;
+    }
+    .Logo-Tulisan
+    {
+        width: 40%;
+    }
+    .navbar-kiri{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        /* align-items: start; */
+    }
+    .navbar-kanan{
+        background-color: whitesmoke;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        display: none;
+        width: 100%;
+    }
+    .navbar-kanan>a{
+        height: 20%;
+        width: 100%;
+        font-size: 1.5rem;
+        text-decoration: underline;
+        background: whitesmoke;
+        z-index: 9999;
+    }
+    .navbar-kanan>a:hover{
+        background-color: black;
+        color: white;
+        font-size: 1.75rem;
+    }
+    .navbar-kanan.open{
+        display:flex;
+    }
+
+    .fa-bars {
+        visibility: visible;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .navbar{
+        display: block;
+    }
+    .navbar-kanan{
+        background-color: whitesmoke;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        display: none;
+        width: 100%;
+    }
+    .navbar-kanan>a{
+        height: 20%;
+        width: 100%;
+        font-size: 1.5rem;
+        text-decoration: underline;
+        background: whitesmoke;
+        z-index: 9999;
+    }
+    .navbar-kanan>a:hover{
+        background-color: black;
+        color: white;
+        font-size: 1.75rem;
+    }
+    .navbar-kanan.open{
+        display:flex;
+    }
+
+    .fa-bars {
+        visibility: visible;
+    }
+
+    .Logo{
+        width: 15%;
+    }
+    .Logo-Tulisan{
+        width: 100px;
+        height: 10px;
+    }
+    .navbar-kiri{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
