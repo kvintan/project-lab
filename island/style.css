@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-Regular.ttf) format(ttf);
+}
+
 body{
     height: 310vh;
     width: 100vw;
@@ -59,7 +64,7 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 2vw;
     font-weight: bolder;
     text-align: center;
@@ -117,7 +122,7 @@ body::-webkit-scrollbar {
     display: grid;
     width: 75%;
     height: 100%;
-    grid-template-columns: repeat(5, 1fr); /* Simplified grid-template-columns */
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .subJudul {
@@ -139,8 +144,7 @@ body::-webkit-scrollbar {
     font-size: 1.7vw; 
 }
 
-.fa-bars {
-    font-size: 250%;
+#garisTiga {
     visibility: hidden;
 }
 
@@ -206,9 +210,6 @@ body::-webkit-scrollbar {
         height: 100px;
         width: 100px;
     }
-    .Logo-Tulisan{
-        /* height: 15%; */
-    }
 
     .subJudul {
         font-size: 1.5vw;
@@ -261,9 +262,9 @@ body::-webkit-scrollbar {
         display:flex;
     }
 
-    .fa-bars {
+    #garisTiga {
         visibility: visible;
-        /* margin-left: 80%; */
+        width: 10%;
     }
 
     .page{
@@ -317,9 +318,9 @@ body::-webkit-scrollbar {
         display:flex;
     }
 
-    .fa-bars {
+    #garisTiga {
         visibility: visible;
-        /* margin-left: 80%; */
+        width: 10%;
     }
 
     .Logo{
