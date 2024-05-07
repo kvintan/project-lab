@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-Regular.ttf) format(ttf);
+}
+
+@font-face {
+    font-family: "Raleway-Bold";
+    src: url(../fonts/Raleway-Bold.ttf) format(ttf);
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -15,13 +25,13 @@ body::-webkit-scrollbar {
     display: flex;
     padding: 0;
     justify-content: center;
-    font-family: "Poppins", sans-serif;
+    font-family: "Raleway", sans-serif;
     flex-direction: column;
     border-bottom: 10px solid black;
 }
 
 .header h1 {
-    font-size: 7vw;
+    font-size: 6.3vw;
     font-weight: 1000;
     margin-top: 5%;
     margin-bottom: 1%;
@@ -183,9 +193,9 @@ body::-webkit-scrollbar {
 }
 
 .isleofBerk h1 {
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway-Bold", sans-serif;
     font-size: 4vw;
-    font-weight: 900;
+    font-weight: 1000;
 }
 
 .isleofBerk h3 {
@@ -238,7 +248,7 @@ body::-webkit-scrollbar {
 
 .footerTextContainer h4 {
     text-align: center;
-    font-family: "Poppins", sans-serif;
+    font-family: "Raleway", sans-serif;
     margin-top: 1vw;
     cursor: pointer;
     text-decoration: none;
@@ -259,7 +269,7 @@ body::-webkit-scrollbar {
 }
 
 .footer h6 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Raleway", sans-serif;
     margin-top: -1vw;
     margin-left: 27%;
     font-weight: 500;

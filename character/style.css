@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-Regular.ttf) format(ttf);
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -25,15 +30,16 @@ body::-webkit-scrollbar {
 }
 
 .characterPage h1 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 7vw;
     margin-top: 1vw;
     line-height: 2vw;
     text-decoration: underline;
+    font-weight: 1000;
 }
 
 .characterPage h3 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 500;
     width: 80%;
     text-align: justify;
@@ -63,7 +69,7 @@ body::-webkit-scrollbar {
     }
 
     .characterDescription h3 {
-        font-size: 1.4vw;
+        font-size: 1.7vw;
     }
 }
 
@@ -86,7 +92,7 @@ body::-webkit-scrollbar {
     }
 
     .characterDescription h3 {
-        font-size: 1.4vw;
+        font-size: 1.7vw;
     }
 }
 
@@ -113,7 +119,7 @@ body::-webkit-scrollbar {
     }
 
     .characterDescription h3 {
-        font-size: 1.6vw;
+        font-size: 2vw;
     }
 }
 
